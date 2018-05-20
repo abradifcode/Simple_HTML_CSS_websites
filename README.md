@@ -1,6 +1,6 @@
 # Simple_HTML_CSS_websites
 
-For practose 
+For practise 
 
 # List of folders with description
 
