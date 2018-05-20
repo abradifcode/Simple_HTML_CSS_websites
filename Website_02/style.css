@@ -71,7 +71,7 @@ article {
     background-color: white;
     opacity: 0.9;
     color: black;
-    height: 300px;
+    min-height: 300px;
     padding-top: 100px;
 }
 .mainInfo h2, .bottomInfo h2{
@@ -150,7 +150,54 @@ footer ul li {
     background-color: #210024;
     color: white;
     border-style: none;
+    margin-bottom: 10px;
 }
 .social ul li {
     display: inline-block;
+}
+@media only screen and (min-width: 600px) {
+    header nav label {
+        display: none;
+    }
+    header {
+        width: 100%;
+        margin-bottom: -5px;
+    }
+    header nav {
+        display:inline-block;
+        width: 100%;
+    }
+    #logo {
+        display: inline-block;
+        float: left;
+        font-size: 25px;
+        text-decoration: none;
+        color: white;
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    nav ul {
+        list-style: none;
+        text-align: left;
+        
+    }
+    nav ul li {
+        list-style: none;
+        margin:10px;
+        padding-top: 5px;
+        display: inline-block;
+    }
+    nav ul li:first-child {
+        padding-top: 0px;
+    }
+    nav ul li a {
+        text-decoration: none;
+        color: white;
+        padding-top:10px;
+    }
+    #mainMenu {
+        background-color: #210024;
+        margin:0px;
+        min-height: 50px;
+    }
 }
