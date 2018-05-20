@@ -12,13 +12,23 @@ header nav {
   color: white;
   height: 40px;
   display: inline-block;
+  visibility: visible;
   /* display:flex; */
+}
+label {
+    float:right;
+    margin-top: 10px;
+    margin-right: 10px;
+    display: none;
+}
+#menu-toggle {
+    display: none;
 }
 header nav ul {
   list-style-type: none;
   margin: 0;
   padding: 10px;
-  width: 400px;
+  max-width: 100%;
   display: inline-block;
 }
 header nav ul li {
@@ -33,6 +43,9 @@ header nav form {
   float: right;
   margin-top: 10px;
   margin-right:20px;
+}
+#search {
+    display: none;
 }
 article {
   border: 1px solid black;
@@ -51,29 +64,31 @@ article p {
   min-height: 250px;
 }
 .top-middle article {
-  width: 900px;
+  width: 100%;
 }
 .top-middle figure {
   margin: 0px;
   width: 300px;
   height: 300px;
   border: 1px solid black;
+  display: none;
 }
+
 .left{
-  max-width:598px;
+  max-width: 100%;
   display: inline-block;
 }
 .left article {
-  height: 800px;
+  height: 802px;
   float: left;
 }
 .right {
   display: inline-block;
-  max-width: 598px;
+  max-width: 100%;
   margin: 0px;
 }
 .right article {
-  height: 400px;
+   min-height: 400px;
   float: right;
 }
 footer {
@@ -95,34 +110,49 @@ footer {
 footer figure img{
   margin-left:30px;
 }
-@media only screen and (max-width: 1199px) {
-    .left {
-    max-width: 100%;
-    display: inline-block;
+@media only screen and (max-width: 500px) {
+    header nav ul li {
+        display: block;
+        text-align: center;
+        margin: 0px       
     }
-    .right {
-    display: inline-block;
-    max-width: 100%;
-    margin: 0px;
+    label {
+        display: block;
     }
-    #search {
-    display: none;
+    #menu {
+        background-color: black;
+        width: 780px;
+        overflow: hidden;
+        max-height: 0;
+        padding: 0;
+        margin-top: 10px;
+        -webkit-transition: all 0.3s ease;
+}
+    #menu li:last-child{
+        margin-bottom: 10px;
     }
-    figure {
-    display: none;
-    }
-    .top-middle article {
-        width: 100%;
+    #menu-toggle:checked + #menu {
+        max-height: 100px;
+}
+    footer figure {
+        display: none;
     }
 }
+
 @media only screen and (min-width: 1200px) {
     .left {
-    min-width:598px;
-    display: inline-block;
+        max-width:598px;
+        display: inline-block;
     }
     .right {
-    display: inline-block;
-    min-width: 598px;
-    margin: 0px;
+        display: inline-block;
+        max-width: 598px;
+        margin: 0px;
+    }
+    #search {
+        display: block;
+    }
+    .top-middle figure {
+        display: block;
     }
 }
