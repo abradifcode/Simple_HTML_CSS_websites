@@ -1,71 +1,85 @@
 body {
-    background-color: #000000;  
+    background-color: #000000;
     margin: 0px;
     color: white;
     font-family: 'Arvo', serif;
-    
+
 }
+
 .svgBackground {
     margin: 0px;
-background-color: #ff9d00;
-background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg stroke='%23000' stroke-width='66.7' stroke-opacity='0.05' %3E%3Ccircle fill='%23ff9d00' cx='0' cy='0' r='1800'/%3E%3Ccircle fill='%23fb8d17' cx='0' cy='0' r='1700'/%3E%3Ccircle fill='%23f47d24' cx='0' cy='0' r='1600'/%3E%3Ccircle fill='%23ed6e2d' cx='0' cy='0' r='1500'/%3E%3Ccircle fill='%23e35f34' cx='0' cy='0' r='1400'/%3E%3Ccircle fill='%23d85239' cx='0' cy='0' r='1300'/%3E%3Ccircle fill='%23cc453e' cx='0' cy='0' r='1200'/%3E%3Ccircle fill='%23be3941' cx='0' cy='0' r='1100'/%3E%3Ccircle fill='%23b02f43' cx='0' cy='0' r='1000'/%3E%3Ccircle fill='%23a02644' cx='0' cy='0' r='900'/%3E%3Ccircle fill='%23901e44' cx='0' cy='0' r='800'/%3E%3Ccircle fill='%23801843' cx='0' cy='0' r='700'/%3E%3Ccircle fill='%236f1341' cx='0' cy='0' r='600'/%3E%3Ccircle fill='%235e0f3d' cx='0' cy='0' r='500'/%3E%3Ccircle fill='%234e0c38' cx='0' cy='0' r='400'/%3E%3Ccircle fill='%233e0933' cx='0' cy='0' r='300'/%3E%3Ccircle fill='%232e062c' cx='0' cy='0' r='200'/%3E%3Ccircle fill='%23210024' cx='0' cy='0' r='100'/%3E%3C/g%3E%3C/svg%3E");
-background-attachment: fixed;
-background-size: cover;
-background-position: center;
+    background-color: #ff9d00;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg stroke='%23000' stroke-width='66.7' stroke-opacity='0.05' %3E%3Ccircle fill='%23ff9d00' cx='0' cy='0' r='1800'/%3E%3Ccircle fill='%23fb8d17' cx='0' cy='0' r='1700'/%3E%3Ccircle fill='%23f47d24' cx='0' cy='0' r='1600'/%3E%3Ccircle fill='%23ed6e2d' cx='0' cy='0' r='1500'/%3E%3Ccircle fill='%23e35f34' cx='0' cy='0' r='1400'/%3E%3Ccircle fill='%23d85239' cx='0' cy='0' r='1300'/%3E%3Ccircle fill='%23cc453e' cx='0' cy='0' r='1200'/%3E%3Ccircle fill='%23be3941' cx='0' cy='0' r='1100'/%3E%3Ccircle fill='%23b02f43' cx='0' cy='0' r='1000'/%3E%3Ccircle fill='%23a02644' cx='0' cy='0' r='900'/%3E%3Ccircle fill='%23901e44' cx='0' cy='0' r='800'/%3E%3Ccircle fill='%23801843' cx='0' cy='0' r='700'/%3E%3Ccircle fill='%236f1341' cx='0' cy='0' r='600'/%3E%3Ccircle fill='%235e0f3d' cx='0' cy='0' r='500'/%3E%3Ccircle fill='%234e0c38' cx='0' cy='0' r='400'/%3E%3Ccircle fill='%233e0933' cx='0' cy='0' r='300'/%3E%3Ccircle fill='%232e062c' cx='0' cy='0' r='200'/%3E%3Ccircle fill='%23210024' cx='0' cy='0' r='100'/%3E%3C/g%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
 }
-.center{
+
+.center {
     min-height: 100%;
 }
+
 header nav {
-    background-color:#210024;
-    min-height:50px;
+    background-color: #210024;
+    min-height: 50px;
 }
+
 header nav label {
     float: right;
     margin-top: 15px;
     margin-right: 20px
-        
 }
+
 #menu {
-    display:none;
+    display: none;
 }
+
 #logo {
-    display:none;
+    display: none;
 }
+
 nav ul {
     text-align: center;
     list-style: none;
 }
+
 nav ul li {
     list-style: none;
-    margin-top:20px;
-    margin:10px
+    margin-top: 20px;
+    margin: 10px
 }
+
 nav ul li:first-child {
-    padding-top:20px;
+    padding-top: 20px;
 }
-nav ul li:last-child{
-    padding-bottom:10px
+
+nav ul li:last-child {
+    padding-bottom: 10px
 }
+
 nav ul li a {
     text-decoration: none;
     color: white;
-    padding-top:20px;
+    padding-top: 20px;
 }
+
 #mainMenu {
     background-color: #210024;
-    margin:0px;
-    max-height: 0; 
+    margin: 0px;
+    max-height: 0;
     overflow: hidden;
     -webkit-transition: all 0.3s ease;
 }
-#menu:checked + #mainMenu{
-        max-height: 150px;
+
+#menu:checked + #mainMenu {
+    max-height: 150px;
 }
+
 article {
     padding-left: 80px;
     padding-right: 80px;
 }
+
 .mainInfo {
     text-align: center;
     background-color: white;
@@ -74,76 +88,93 @@ article {
     min-height: 300px;
     padding-top: 100px;
 }
-.mainInfo h2, .bottomInfo h2{
-    padding-top:30px;
+
+.mainInfo h2,
+.bottomInfo h2 {
+    padding-top: 30px;
 }
-.mainInfo p, .bottomInfo p{
+
+.mainInfo p,
+.bottomInfo p {
     margin: 10px;
     padding-bottom: 20px;
 }
+
 .secondInfo {
     text-align: center;
     color: black;
     min-height: 200px;
     margin: 10px;
 }
+
 .boxInfo {
-   text-align: center;
-   min-height: 300px;
+    text-align: center;
+    min-height: 300px;
     margin-left: -60px;
 }
+
 .bottomInfo {
     text-align: center;
     color: black;
     min-height: 300px;
     background-color: white;
     opacity: 0.9;
-    padding-bottom:10px;
+    padding-bottom: 10px;
 }
+
 footer {
     min-height: 150px;
     width: 100%;
     background-color: #210024;
-    padding-bottom:30px;
+    padding-bottom: 30px;
     display: inline-block;
     margin-bottom: -10px;
 }
+
 .contact {
-    float:left;
+    float: left;
     margin-left: 40px;
     padding-top: 10px;
 }
+
 .social {
-    float:right;
+    float: right;
     margin-right: 30px;
     padding-top: 35px;
 }
-.social ul{
+
+.social ul {
     list-style: none;
 }
-.social ul li{
+
+.social ul li {
     list-style: none;
     margin-top: 5px
 }
+
 .social ul li a {
     text-decoration: none;
     color: white;
 }
+
 .box {
     margin-left: 60px;
-    display:inline-block;
+    display: inline-block;
     width: 200px;
     height: 200px;
     background-color: white;
     border-radius: 70px
 }
+
 footer ul {
-    margin:0px;
-    padding:0px;
+    margin: 0px;
+    padding: 0px;
 }
+
 footer ul li {
     margin-right: 5px;
 }
+
 .mainInfo input {
     width: 150px;
     height: 30px;
@@ -152,9 +183,11 @@ footer ul li {
     border-style: none;
     margin-bottom: 10px;
 }
+
 .social ul li {
     display: inline-block;
 }
+
 @media only screen and (min-width: 600px) {
     header nav label {
         display: none;
@@ -164,7 +197,7 @@ footer ul li {
         margin-bottom: -5px;
     }
     header nav {
-        display:inline-block;
+        display: inline-block;
         width: 100%;
     }
     #logo {
@@ -179,11 +212,11 @@ footer ul li {
     nav ul {
         list-style: none;
         text-align: left;
-        
+
     }
     nav ul li {
         list-style: none;
-        margin:10px;
+        margin: 10px;
         padding-top: 5px;
         display: inline-block;
     }
@@ -193,11 +226,11 @@ footer ul li {
     nav ul li a {
         text-decoration: none;
         color: white;
-        padding-top:10px;
+        padding-top: 10px;
     }
     #mainMenu {
         background-color: #210024;
-        margin:0px;
+        margin: 0px;
         min-height: 50px;
     }
 }
