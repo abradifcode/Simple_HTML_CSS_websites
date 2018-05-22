@@ -68,6 +68,13 @@ header nav ul {
 
 }
 
+figure {
+    width: 100%;
+    height: auto;
+    padding: 0;
+
+}
+
 header nav ul li {
     padding: 10px;
     list-style: none;
@@ -112,20 +119,25 @@ header nav .searchBox {
 .center .rightSide {
     flex-grow: 1;
     border: 1px solid black;
-    display:none;
+    display: none;
 }
+
 .center .rightSide article ul li {
     list-style: square
 }
-.center .rightSide article h4{
+
+.center .rightSide article h4 {
     margin-left: 20px;
 }
-.center .rightSide article ul li a{
+
+.center .rightSide article ul li a {
     text-decoration: none;
 }
+
 .otherSites {
     margin-bottom: 20px;
 }
+
 footer {
     text-align: center;
     background-color: black;
@@ -133,9 +145,11 @@ footer {
     height: 100px;
     color: white;
 }
+
 .contact {
     padding-top: 5px;
 }
-footer .contact p{
-    margin-top:10px;
+
+footer .contact p {
+    margin-top: 10px;
 }
