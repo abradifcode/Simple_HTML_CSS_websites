@@ -14,7 +14,9 @@ header {
     align-items: flex-end;
 
 }
-
+.social {
+    display: none;
+}
 header nav {
     display: flex;
     color: white;
@@ -72,6 +74,7 @@ figure {
     width: 100%;
     height: auto;
     padding: 0;
+    margin: 0;
 
 }
 
@@ -112,8 +115,8 @@ header nav .searchBox {
 }
 
 .center .articleSide article {
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .center .rightSide {
@@ -124,10 +127,6 @@ header nav .searchBox {
 
 .center .rightSide article ul li {
     list-style: square
-}
-
-.center .rightSide article h4 {
-    margin-left: 20px;
 }
 
 .center .rightSide article ul li a {
@@ -152,4 +151,94 @@ footer {
 
 footer .contact p {
     margin-top: 10px;
+}
+
+@media only screen and (min-width: 600px) {
+    header nav {
+        align-items: center;
+        flex-direction: row-reverse;
+
+    }
+
+    header nav #logo {
+        display: flex;
+        margin-right: 20px;
+    }
+
+    header nav label {
+        display: none;
+
+    }
+
+    #menu {
+        max-height: 50px;
+        overflow: visible;
+        margin: 0;
+    }
+
+
+    header nav ul {
+        display: flex;
+        height: 50px;
+
+    }
+    header nav ul li {
+        flex-direction: row;
+        padding: 14px;
+    }
+    .center .articleSide article h3 {
+        text-align: center;
+    }
+    .center .articleSide article {
+        padding-left: 10%;
+        padding-right: 10%;
+        text-align: left;
+        display: inline-block;
+    }
+    .center .articleSide article figure img {
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+    .center .articleSide article figure img {
+        float: right
+    }
+    .center {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    .center .rightSide {
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+    }
+    .center .rightSide article {
+        display: inline-block;
+    }
+    .center .rightSide article:first-child {
+        margin-top: 50px;
+    }
+    article ul {
+        padding-left: 60px;
+        padding-right: 40px;
+    }
+    article ul li p {
+        margin: 0;
+    }
+    .social {
+        align-items: center;
+        flex-direction: row;
+        display: flex;
+        margin-right: 20px;
+        margin-top: 10px;
+    }
+    .social a {
+        margin-right: 10px;
+    }
+    header nav .searchBox {
+        display: flex;
+        margin-right: 20px;
+    }
+    .otherSites {
+        text-align: center;;
+    }
 }
