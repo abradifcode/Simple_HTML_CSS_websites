@@ -9,14 +9,15 @@ For practise
 * Website_03 (Pure HTML5 and CSS3 wireframe, Mobile First Methodology, RWD, toggle mobile menu without scripts)
 * Website_04 (Flexbox wireframe, RWD)
 * Website_05 (Flexbox blog wireframe, Mobile First Methodology, RWD, toggle mobile menu without scripts)
-* Website_06
+* Website_06 (Flexbox wireframe, Mobile First Methodology, RWD, toggle mobile menu without scripts, SASS)
+* Website_07 (Bootstrap wireframe, Mobile First Methodology, RWD)
 ...
 
 
 ## Built With
 
 * HTML5
-* CSS3
+* CSS3 (Preprocesors: SASS, Frameworks: Bootstrap)
 * 
 ...
 
