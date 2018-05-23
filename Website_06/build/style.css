@@ -1,6 +1,7 @@
 body {
   margin: 0;
   padding: 0;
+  font-family: "Source Serif Pro", serif;
 }
 
 header {
@@ -54,8 +55,9 @@ header nav #menu {
 header nav #logo {
   text-decoration: none;
   color: white;
-  margin-top: 20px;
-  margin-left: 20px;
+  font-size: 30px;
+  margin-top: 10px;
+  margin-left: 10px;
 }
 header nav #toggle {
   display: none;
@@ -74,7 +76,7 @@ main {
   text-align: center;
 }
 
-main .pictures {
+main section {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -90,9 +92,10 @@ main section article {
   border: 2px solid black;
   padding-bottom: 10px;
   margin: 10px;
+  max-width: 500px;
 }
 main section figure {
-  height: 200px;
+  min-height: 200px;
 }
 
 section article p {
@@ -117,7 +120,7 @@ footer {
   max-width: 100%;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 footer p {
@@ -128,6 +131,12 @@ footer input {
   width: 80px;
   margin-top: 5px;
   margin-right: 10px;
+}
+
+@media only screen and (min-width: 600px) {
+  body {
+    background-color: red;
+  }
 }
 
 /*# sourceMappingURL=build/style.css.map */
