@@ -1,0 +1,167 @@
+$background: url(http://backgroundcheckall.com/wp-content/uploads/2017/12/dark-mountain-background-10406.jpg);
+$mainColor: white;
+$secondColor: black;
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    min-height: 300px;
+    width: 100%;
+    background-image: $background;
+    background-size: 100% 100%;
+    color: $mainColor;
+}
+
+header {
+    nav {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        height: 40px;
+        flex-grow: 1;
+        color: $mainColor;
+        ;
+    }
+
+    .title {
+        display: none;
+    }
+
+
+}
+
+header {
+    nav {
+        ul {
+            list-style: none;
+            padding: 0;
+            width: 100%;
+        }
+        li {
+            margin-top: 10px;
+            padding: 10px;
+            border: 1px dotted $mainColor;
+            ;
+        }
+        li:hover {
+            background-color: $mainColor;
+            ;
+            opacity: 0.6;
+            color: $secondColor;
+        }
+        li a {
+            text-decoration: none;
+            color: $mainColor;
+            ;
+        }
+        li:hover a {
+            color: $secondColor;
+        }
+        #menu {
+            padding-top: 20px;
+            overflow: hidden;
+            max-height: 0;
+        }
+        #logo {
+            text-decoration: none;
+            color: $mainColor;
+            ;
+            margin-top: 20px;
+            margin-left: 20px;
+        }
+        #toggle {
+            display: none;
+        }
+        #toggle:checked + #menu {
+            text-align: center;
+            min-height: 177px;
+            overflow: visible;
+
+        }
+
+        label {
+            margin-top: 20px;
+            margin-right: 20px;
+        }
+    }
+}
+
+main {
+    text-align: center;
+}
+
+main {
+    .pictures {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+main {
+    .pictures {
+        figure {
+            min-width: 200px;
+            max-width: 200px;
+            flex-grow: 1;
+        }
+    }
+}
+
+main {
+    section {
+        article {
+            border: 2px solid black;
+            padding-bottom: 10px;
+            margin: 10px;
+        }
+        figure {
+            height: 200px;
+        }
+    }
+}
+
+section {
+    article {
+        p {
+            margin: 10px;
+        }
+        h4 {
+            background-color: $secondColor;
+            color: $mainColor;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            margin: 0;
+            width: 100%;
+        }
+        ul {
+            padding-left: 80px;
+            margin: 0;
+        }
+    }
+}
+
+footer {
+    background-color: $secondColor;
+    color: $mainColor;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+    p {
+        padding: 10px;
+    }
+    input {
+        height: 40px;
+        width: 80px;
+        margin-top: 5px;
+        margin-right: 10px;
+    }
+}

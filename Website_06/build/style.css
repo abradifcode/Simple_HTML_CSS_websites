@@ -1,0 +1,133 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  min-height: 300px;
+  width: 100%;
+  background-image: url(http://backgroundcheckall.com/wp-content/uploads/2017/12/dark-mountain-background-10406.jpg);
+  background-size: 100% 100%;
+  color: white;
+}
+
+header nav {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  height: 40px;
+  flex-grow: 1;
+  color: white;
+}
+header .title {
+  display: none;
+}
+
+header nav ul {
+  list-style: none;
+  padding: 0;
+  width: 100%;
+}
+header nav li {
+  margin-top: 10px;
+  padding: 10px;
+  border: 1px dotted white;
+}
+header nav li:hover {
+  background-color: white;
+  opacity: 0.6;
+  color: black;
+}
+header nav li a {
+  text-decoration: none;
+  color: white;
+}
+header nav li:hover a {
+  color: black;
+}
+header nav #menu {
+  padding-top: 20px;
+  overflow: hidden;
+  max-height: 0;
+}
+header nav #logo {
+  text-decoration: none;
+  color: white;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+header nav #toggle {
+  display: none;
+}
+header nav #toggle:checked + #menu {
+  text-align: center;
+  min-height: 177px;
+  overflow: visible;
+}
+header nav label {
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+main {
+  text-align: center;
+}
+
+main .pictures {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+main .pictures figure {
+  min-width: 200px;
+  max-width: 200px;
+  flex-grow: 1;
+}
+
+main section article {
+  border: 2px solid black;
+  padding-bottom: 10px;
+  margin: 10px;
+}
+main section figure {
+  height: 200px;
+}
+
+section article p {
+  margin: 10px;
+}
+section article h4 {
+  background-color: black;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 0;
+  width: 100%;
+}
+section article ul {
+  padding-left: 80px;
+  margin: 0;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer p {
+  padding: 10px;
+}
+footer input {
+  height: 40px;
+  width: 80px;
+  margin-top: 5px;
+  margin-right: 10px;
+}
+
+/*# sourceMappingURL=build/style.css.map */
