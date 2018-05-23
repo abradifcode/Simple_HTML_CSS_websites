@@ -14,9 +14,11 @@ header {
     align-items: flex-end;
 
 }
+
 .social {
     display: none;
 }
+
 header nav {
     display: flex;
     color: white;
@@ -104,14 +106,7 @@ header nav .searchBox {
 .center {
     flex-wrap: wrap;
     display: flex;
-    min-height: 400px;
     text-align: center;
-}
-
-.center .articleSide {
-    background-color: blak;
-    flex-grow: 3;
-
 }
 
 .center .articleSide article {
@@ -126,7 +121,7 @@ header nav .searchBox {
 }
 
 .center .rightSide article ul li {
-    list-style: square
+    list-style: square;
 }
 
 .center .rightSide article ul li a {
@@ -153,7 +148,7 @@ footer .contact p {
     margin-top: 10px;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 770px) {
     header nav {
         align-items: center;
         flex-direction: row-reverse;
@@ -189,6 +184,10 @@ footer .contact p {
     .center .articleSide article h3 {
         text-align: center;
     }
+    .center .articleSide {
+        flex-grow: 1;
+    }
+    /*    */
     .center .articleSide article {
         padding-left: 10%;
         padding-right: 10%;
@@ -211,8 +210,18 @@ footer .contact p {
         flex-direction: column;
         flex-grow: 1;
     }
+    .center .rightSide .authorInfo p{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .center .rightSide .authorInfo {
+        margin-top: 50px;
+        border-bottom: 1px dotted black;
+    }
     .center .rightSide article {
         display: inline-block;
+        padding-bottom: 50px;
+        border-bottom: 1px dotted black;
     }
     .center .rightSide article:first-child {
         margin-top: 50px;
@@ -239,6 +248,6 @@ footer .contact p {
         margin-right: 20px;
     }
     .otherSites {
-        text-align: center;;
+        text-align: center;
     }
 }
