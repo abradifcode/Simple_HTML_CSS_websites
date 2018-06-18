@@ -202,6 +202,7 @@ footer .contact p {
         display: flex;
         flex-direction: column;
         flex-grow: 1;
+        max-width: 300px;
     }
     .center .rightSide .authorInfo p {
         margin-left: 10px;
