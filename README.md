@@ -7,7 +7,7 @@ For practise
 * Website_01 (Pure HTML5 and CSS3 wireframe, RWD, toggle mobile menu without scripts)
 * Website_02 (Pure HTML5 and CSS3 wireframe, Mobile First Methodology, RWD, toggle mobile menu without scripts)
 * Website_03 (Pure HTML5 and CSS3 wireframe, Mobile First Methodology, RWD, toggle mobile menu without scripts)
-* Website_04 (Flexbox wireframe, RWD)
+* Animation_04 (Loading animation)
 * Website_05 (Flexbox blog wireframe, Mobile First Methodology, RWD, toggle mobile menu without scripts)
 * Website_06 (Flexbox wireframe, Mobile First Methodology, RWD, toggle mobile menu without scripts, SASS)
 * Website_07 (Bootstrap wireframe, Mobile First Methodology, RWD)
