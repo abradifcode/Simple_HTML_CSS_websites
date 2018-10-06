@@ -1,0 +1,156 @@
+@font-face {
+    font-family: 'latobold';
+    src: url('../fonts/lato/lato-bold-webfont.eot');
+    src: url('../fonts/lato/lato-bold-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/lato/lato-bold-webfont.woff') format('woff'),
+    url('../fonts/lato/lato-bold-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'latolight';
+    src: url('../fonts/lato/lato-light-webfont.eot');
+    src: url('../fonts/lato/lato-light-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/lato/lato-light-webfont.woff') format('woff'),
+    url('../fonts/lato/lato-light-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'bellotabold';
+    src: url('../fonts/bellota/bellota-bold-webfont.eot');
+    src: url('../fonts/bellota/bellota-bold-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/bellota/bellota-bold-webfont.woff') format('woff'),
+    url('.//fonts/bellota/bellota-bold-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'bellotaregular';
+    src: url('../fonts/bellota/bellota-regular-webfont.eot');
+    src: url('../fonts/bellota/bellota-regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/bellota/bellota-regular-webfont.woff') format('woff'),
+    url('../fonts/bellota/bellota-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background: url(../img/background.jpg);
+    background-size: cover;
+    font: 14pt latolight;
+}
+
+nav {
+
+    border-bottom: 5px solid #F7931D;
+    background-color: white;
+}
+
+.navbar {
+    font: 18pt bellotabold;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+ul {
+    margin-left: auto;
+    margin-right: 0px;
+}
+
+ul > li > a {
+    font-family: bellotabold;
+    font-size: 12pt;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+#logo {
+    width: 100px;
+    height: 100px;
+
+}
+
+.jumbotron {
+    margin-top: 200px;
+    border-top: 5px solid #F7931D;
+    border-bottom: 5px solid #F7931D;
+
+}
+.stripjumbo {
+    padding-top: 0px !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+.stripjumbo .text-center {
+    margin-top: 70px;
+}
+.text-center {
+    padding: 100px 25px 100px 25px;
+    border: 3px dashed #999;
+}
+
+footer {
+    margin-top: 150px;
+    background-color: white;
+    min-height: 300px;
+    font-size: 13pt;
+}
+
+footer > p {
+    font-family: latolight;
+}
+
+.container > h4 {
+    font-family: latobold;
+}
+
+.strip {
+    background-color: #F7931D;
+    width: 100%;
+    height: 50px;
+    padding-top: 10px;
+    text-align: center;
+    font-family: bellotabold;
+
+}
+
+#signed {
+    padding-top: 30px;
+}
+
+#signed  a {
+    color: #F7931D;
+}
+
+h4 {
+    font: 24pt bellotabold;
+}
+
+.text-center > h4 {
+    font: 36pt bellotaregular;
+    color: #F7931D;
+}
+
+@media (min-width: 992px) {
+    .navbar {
+        height: 80px;
+    }
+    .navbar-brand{
+        margin-top:30px;
+    }
+}

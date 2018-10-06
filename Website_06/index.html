@@ -1,94 +1,133 @@
 <!DOCTYPE html>
+<html lang="en-US">
 <html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Karol Kawski Portfolio</title>
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+	<body  data-spy="scroll"  data-target=".navigation-menu" data-offset="-100">
+	<div class="container-fluid page-wrapper">
+		<header class="navigation-menu-section">
+		<div class="container">
+			<a href="#" alt="Back home" title="Go back to homeback">
+				<img src="img/logo.png" class="logo">
+			</a>
+			<svg id="Capa_2" style="enable-background:new 0 0 32 32;" version="1.1" viewBox="0 0 32 32" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M4,10h24c1.104,0,2-0.896,2-2s-0.896-2-2-2H4C2.896,6,2,6.896,2,8S2.896,10,4,10z M28,14H4c-1.104,0-2,0.896-2,2  s0.896,2,2,2h24c1.104,0,2-0.896,2-2S29.104,14,28,14z M28,22H4c-1.104,0-2,0.896-2,2s0.896,2,2,2h24c1.104,0,2-0.896,2-2  S29.104,22,28,22z"/></svg>
+			<nav class="navigation-menu">
+				<ul class="navigation">
+					<li><a href="#home">Home</a></li>
+					<li><a href="#about">About</a></li>
+					<li><a href="#portfolio">Portfolio</a></li>
+					<li><a href="#contact">Contact</a></li>
+					<div class="clearfix"></div>
+				</ul>
+			</nav>
+			</div>
+		</header>
+		<main class="main-content">
+			<article class="home-section" id="home">
+				<header>
+					<h1> Karol Kawski </h1>
+					<p> Wroclaw Uniwersity of Technology Student</p>
+				</header>
+				<figure>
+					<img src="img/duck.jpg" class="profile-photo img-responsive ">
+				</figure>
+			</article>
+			<article class="about-section"  id="about">
+				<header>
+					<h2> About </h2>
+				</header>
+				<p>A forest is a large area dominated by trees.[1] Hundreds of more precise definitions of forest are used throughout the world, incorporating factors such as tree density, tree height, land use, legal standing and ecological function.[2][3][4] According to the widely used[5][6] Food and Agriculture Organization definition, forests covered four billion hectares (15 million square miles) or approximately 30 percent of the world's land area in 2006.[4]
+Forests are the dominant terrestrial ecosystem of Earth, and are distributed across the globe.[7] Forests account for 75% of the gross primary productivity of the Earth's biosphere, and contain 80% of the Earth's plant biomass.[7]
+Forests at different latitudes and elevations form distinctly different ecozones: boreal forests near the poles, tropical forests near the equator and temperate forests at mid-latitudes. Higher elevation areas tend to support forests similar to those at higher latitudes, and amount of precipitation also affects forest composition.</p>
+				<div class="row">
+					<div class="col-lg-6">
+						<figure>
+							<img src="">
+						</figure>
+					</div>
+					<div class="col-lg-6">
+						<figure>
+							<img src="">
+						</figure>
+					</div>
+				</div>
+			</article>
+			<article class="portfolio-section"  id="portfolio">
+				<header>
+					<h2> Portfolio </h2>
+				</header>
+				<div class="row portfolio-table">
+					<div class="col-sm-6 col-md-6 col-lg-3">
+						<figure class="portfolio-figure">
+							<img src="img/website.jpg" class="portfolio-photos">
+							<figcaption>Photo nr 1</figcaption>
+						</figure>
+					</div>
+					<div class="col-sm-6 col-md-6 col-lg-3">
+						<figure class="portfolio-figure">
+							<img src="img/website.jpg" class="portfolio-photos">
+							<figcaption>Photo nr 2</figcaption>
+						</figure>
+					</div>
+					<div class="col-sm-6 col-md-6 col-lg-3">
+						<figure class="portfolio-figure">
+							<img src="img/website.jpg" class="portfolio-photos">
+							<figcaption>Photo nr 3</figcaption>
+						</figure>
+					</div>
+					<div class="col-sm-6 col-md-6 col-lg-3">
+						<figure class="portfolio-figure">
+							<img src="img/website.jpg" class="portfolio-photos">
+							<figcaption>Photo nr 4</figcaption>
+						</figure>
+					</div>
+				</div>
+			</article>
+			<article class="contact-section"  id="contact">
+				<header>
+					<h2> Contact </h2>
+				</header>
+				<div class="row">
 
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="build/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro:400,600" rel="stylesheet"> 
-    <title>Website_06</title>
-</head>
+					<div class="col-sm-12 col-md-6 col-lg-6">
+						<form class="contact-form">
+						<label id="full-name">Full name</label>
+						<input type="text" name="full-name" placeholder="Full name" required>
+						<label id="email">Email</label>
+						<input type="Email" name="email" placeholder="Email" required>
+						<label id="telephone">Telephone</label>
+						<input type="text" name="telephone" placeholder="Telephone" required>
+						<label id-"message">Message</label>
+						<textarea rows="4" cols="22" placeholder="Message" name="message" required>
+						</textarea><br>
+						<input type="submit" value="Submit">
+						</form>
+					</div>
+					<div class="col-sm-12 col-md-6 col-lg-6">
+					<ul class="link-list">
+						<li><a href="#">Linkedin</a></li>
+						<li><a href="#">Github</a></li>
+						<li><a href="#">Youtube</a></li>
+					</ul>
+					</div>
 
-<body>
-    <header>
-        <nav>
-            <label for="toggle">Menu</label>
-            <input type="checkbox" id="toggle" />
-            <ul id="menu">
-                <li><a href="">Item1</a></li>
-                <li><a href="">Item2</a></li>
-                <li><a href="">Item3</a></li>
-            </ul>
-            <a href="" id="logo">LOGO</a>
-        </nav>
-        <div class="title">
-            <h2>Main title</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vulputate sollicitudin nibh ut euismod.</p>
-            <input type="button" value="More" /></div>
-    </header>
-    <main>
-                    <h3>Title 1</h3>
-        <section class="threeBoxes">
-            <article>
-                <h4>Subtitle 1</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vulputate sollicitudin nibh ut euismod. Fusce a lacus velit. Aliquam laoreet vitae nisl in dapibus. Quisque mi dolor, gravida vitae porta non, tempor sit amet lorem.</p>
-                <input type="button" value="More" />
-            </article>
-            <article>
-                <h4>Subtitle 2</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vulputate sollicitudin nibh ut euismod. Fusce a lacus velit. Aliquam laoreet vitae nisl in dapibus. Quisque mi dolor, gravida vitae porta non, tempor sit amet lorem.</p>
-                <input type="button" value="More" />
-            </article>
-            <article>
-                <h4>Subtitle 3</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vulputate sollicitudin nibh ut euismod. Fusce a lacus velit. Aliquam laoreet vitae nisl in dapibus. Quisque mi dolor, gravida vitae porta non, tempor sit amet lorem.</p>
-                <input type="button" value="More" />
-            </article>
-        </section>
-        <h3>Title 2</h3>
-        <section class="pictures">
-            <figure>
-                <a href=""><img src="http://via.placeholder.com/200x200"/></a>
-            </figure>
-            <figure>
-                <a href=""><img src="http://via.placeholder.com/200x200"/></a>
-            </figure>
-            <figure>
-                <a href=""><img src="http://via.placeholder.com/200x200"/></a>
-            </figure>
-            <figure>
-                <a href=""><img src="http://via.placeholder.com/200x200"/></a>
-            </figure>
-            <figure>
-                <a href=""><img src="http://via.placeholder.com/200x200"/></a>
-            </figure>
-            <figure>
-                <a href=""><img src="http://via.placeholder.com/200x200"/></a>
-            </figure>
-        </section>
-                    <h3>Title 3</h3>
-        <section>
-
-            <article class="lastArticle">
-                <h4>Subtitle 1</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vulputate sollicitudin nibh ut euismod. Fusce a lacus velit. Aliquam laoreet vitae nisl in dapibus. Quisque mi dolor, gravida vitae porta non, tempor sit amet lorem.</p>
-                <ul>
-                    <li>Item 1 with description</li>
-                    <li>Item 2 with description</li>
-                    <li>Item 3 with description</li>
-                    <li>Item 4 with description</li>
-                </ul>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vulputate sollicitudin nibh ut euismod. Fusce a lacus velit. Aliquam laoreet vitae nisl in dapibus. Quisque mi dolor, gravida vitae porta non, tempor sit amet lorem.</p>
-                <input type="button" value="More" />
-            </article>
-            <figure>
-                <a href=""><img src="http://via.placeholder.com/250x350"/></a>
-            </figure>
-        </section>
-    </main>
-    <footer>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vulputate sollicitudin nibh ut euismod.</p>
-        <input type="button" value="More" />
-    </footer>
-</body>
-
+				</div>
+			</article>
+		</main>
+		<footer class="page-footer">
+			<p>copywriting Karol Kawski 2017</p>
+		</footer>
+	</div>
+	<script>
+	var hamburger = document.querySelector("#Capa_2");
+	hamburger.addEventListener("click", function(){
+		document.querySelector(".navigation-menu").classList.toggle("nav-openned");
+	}, false);
+	</script>
+	</body>
 </html>
