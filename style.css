@@ -1,0 +1,64 @@
+.container-fluid {
+    margin: 0;
+    padding: 0;
+    border: none;
+    border-radius: 0;
+
+}
+
+.jumbotron {
+    padding: 0;
+    margin: 0;
+    width: auto;
+    height: 500px;
+    background: url('https://i.imgur.com/8b42Iky.jpg') no-repeat center;
+    border-radius: 0;
+}
+
+.jumbotron > h2 {
+    color: white;
+    font-size: 35pt;
+    font-weight: 600;
+    text-align: center;
+    display: block;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.row {
+    margin-top: 50px;
+}
+
+.card {
+    border: 1px solid gray;
+    box-shadow: 2px;
+    -webkit-box-shadow: 10px 10px 7px -10px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 7px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 7px -10px rgba(0, 0, 0, 0.75);
+}
+.card > a {
+    text-align: center;
+    margin-top:20px;
+}
+img {
+    margin-left:auto;
+    margin-right: auto;
+    height: 300px;
+    width: auto;
+    border: 1px solid grey;
+}
+.btn {
+    border: 1px solid gray;
+}
+footer {
+    margin-top: 50px;
+    background-color: gray;
+    height: 50px;
+    width: 100%;
+}
+main > p {
+    text-align: center;
+}
